@@ -7,11 +7,9 @@
 /* main collage contianer */
 .main-container {
   margin-left: 51.8px;
-  margin-right: 22px;
   margin-bottom: 74.7px;
   width: 639px;
   height: 377px;
-  /* border: 1px solid black; */
 }
 
 /* for image  */
@@ -100,9 +98,10 @@
 /* For promoted */
 .promoted {
   width: 152px;
+  height: 32px;
   position: absolute;
   right: 0;
-  top: -17.5px;
+  top: -17px;
   background-color: #68a7ff;
   text-align: center;
   padding: 10px;
@@ -110,27 +109,26 @@
 }
 
 /* for arrow before promotion */
-.promoted:before {
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 32px solid transparent;
-  border-left: 40px solid transparent;
-  border-bottom: 32px solid #68a7ff;
+.top {
   position: absolute;
-  right: 141px;
-  top: -26px;
-}
-/* For arrow before promotion */
-.arrow {
   width: 0;
   height: 0;
   border-bottom: 30px solid transparent;
   border-left: 40px solid transparent;
   border-top: 30px solid #68a7ff;
-  position: absolute;
   right: 140px;
-  top: -18px;
+  top: -17px;
+}
+
+.bottom {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-left: 40px solid transparent;
+  border-bottom: 30px solid #68a7ff;
+  position: absolute;
+  right: 141px;
+  top: -45px;
 }
 
 /* desing the bottom container */
@@ -229,8 +227,9 @@
 
 /* original discount deisign */
 .fee-discount .original-discount {
-  /* height: 14px;
-  width: 29px; */
+  width: 29px;
+  height: 14px;
+
   background-color: red;
   color: white;
   padding: 1px;
@@ -245,21 +244,18 @@
   background-color: white;
   top: 5px;
   right: 15px;
-  /* margin: 3px; */
 }
 
 /* For arrow before the discount panel */
-.original-discount:before {
-  content: ".";
+.arrow {
+  position: absolute;
   width: 0;
   height: 0;
   border-top: 7px solid transparent;
-  border-bottom: 7.5px solid transparent;
-  border-right: 8px solid red;
-  position: absolute;
+  border-bottom: 7px solid transparent;
+  border-right: 10px solid red;
   right: 15px;
   top: -1px;
-  color: white;
 }
 
 /* fee container */

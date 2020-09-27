@@ -23,7 +23,9 @@ export default class CollageDetail extends Component {
           </div>
           <div>
             {collage.promoted ? <div className="promoted">PROMOTED</div> : null}
-            <div className="arrow"></div>
+            {/* <div className="arrow"></div> */}
+            <div className="top"></div>
+            <div className="bottom"></div>
             <div className="rating">
               <span className="out">{collage.rating}</span>
               <span className="out-off">/5</span>
@@ -95,7 +97,9 @@ export default class CollageDetail extends Component {
             </span>
             <span className="original-discount">
               <span className="org-dsc">
-                <span className="dot"></span> {collage.discount}
+                <span className="arrow"></span>
+                <span className="dot"></span>
+                {collage.discount}
               </span>
             </span>
           </div>
