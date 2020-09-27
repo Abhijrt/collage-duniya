@@ -28,13 +28,16 @@ export default class Collage extends Component {
 
   render() {
     return (
-      <div className="collage-container" id="collage">
-        {colleges.map((collage, index) => {
-          if (index <= this.state.index) {
-            return <CollageDetail key={index} collage={collage} />;
-          }
-          return null;
-        })}
+      <div id="collage">
+        <h1 className="heading">Collages in North India</h1>
+        <div className="collage-container">
+          {colleges.map((collage, index) => {
+            if (index <= this.state.index) {
+              return <CollageDetail key={index} collage={collage} />;
+            }
+            return null;
+          })}
+        </div>
       </div>
     );
   }

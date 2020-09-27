@@ -14,6 +14,14 @@ code {
 
 /* collage component design */
 .collage-container {
+  margin-top: 135.7px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.heading {
+  font-size: 18px;
+  margin-top: 49px;
+  margin-left: 56px;
+  color: #444444;
 }
