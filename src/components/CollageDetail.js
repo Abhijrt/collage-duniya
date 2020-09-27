@@ -2,14 +2,6 @@ import React, { Component } from "react";
 import "../assets/css/collagedetail.css";
 
 export default class CollageDetail extends Component {
-  // constructor() {
-  //   super();
-  //   this.state = {
-  //     firstElement: "",
-  //     secondElement: "",
-  //   };
-  // }
-
   render() {
     const { collage } = this.props;
     var arr = [1, 2, 3, 4, 5];
@@ -22,7 +14,7 @@ export default class CollageDetail extends Component {
     // this logic is for solitting the offertext to design
     var discount = collage.offertext;
     var firstDiscount = discount.split("Rs");
-    console.log(firstDiscount);
+    // console.log(firstDiscount);
     return (
       <div className="main-container">
         <div className="top-container">
