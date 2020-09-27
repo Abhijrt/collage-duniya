@@ -7,7 +7,6 @@ export default class Collage extends Component {
     super();
     this.state = {
       index: 9,
-      // yOffSet: 1587,
     };
     setInterval(() => {
       this.fetchOtherElement();
@@ -15,22 +14,19 @@ export default class Collage extends Component {
   }
 
   fetchOtherElement = () => {
-    const { index, yOffSet } = this.state;
+    const { index } = this.state;
     var container = document.getElementById("collage");
     var contentHeight = container.offsetHeight;
     var load = window.pageYOffset;
     var y = load + window.innerHeight;
-    // console.log(yOffSet);
     if (y >= contentHeight) {
       this.setState({
         index: index + 10,
-        // yOffSet: contentHeight,
       });
     }
   };
 
   render() {
-    // console.log(colleges.length);
     return (
       <div className="collage-container" id="collage">
         {colleges.map((collage, index) => {

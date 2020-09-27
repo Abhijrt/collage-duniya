@@ -147,6 +147,12 @@
   font-size: 17px;
 }
 
+.stars {
+  position: absolute;
+  right: 230px;
+  top: 18.6px;
+}
+
 /* for collage address container */
 .collage-address {
   position: absolute;
@@ -196,8 +202,10 @@
 
 /* for discount upto */
 .discount .upto {
-  font-size: 13px;
+  position: absolute;
+  font-size: 12px;
   margin-left: 17px;
+  top: 9px;
 }
 
 /* Right container Style */
@@ -219,10 +227,23 @@
 
 /* original discount deisign */
 .fee-discount .original-discount {
-  height: 14px;
-  width: 29px;
+  /* height: 14px;
+  width: 29px; */
   background-color: red;
   color: white;
+  padding: 1px;
+  font-weight: 600;
+}
+
+.dot {
+  position: absolute;
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  background-color: white;
+  top: 5px;
+  right: 15px;
+  /* margin: 3px; */
 }
 
 /* For arrow before the discount panel */
@@ -230,12 +251,12 @@
   content: ".";
   width: 0;
   height: 0;
-  border-top: 6px solid transparent;
-  border-bottom: 6.4px solid transparent;
-  border-right: 10px solid red;
+  border-top: 7px solid transparent;
+  border-bottom: 7.5px solid transparent;
+  border-right: 8px solid red;
   position: absolute;
-  right: 18.6px;
-  top: 0px;
+  right: 15px;
+  top: -1.5px;
   color: white;
 }
 
@@ -274,9 +295,11 @@
 
 /* icon star style */
 .icon-star {
-  position: absolute;
-  right: 296px;
-  top: 18.6px;
+  color: lightgray;
+}
+
+.active {
+  color: #444444;
 }
 
 /* icon design */
