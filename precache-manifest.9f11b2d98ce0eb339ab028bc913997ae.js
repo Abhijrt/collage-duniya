@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d2652729f67cf9f66d6594052358865",
+    "revision": "6735c1ad64ca82a202ebafde20b648fe",
     "url": "/collage-duniya/index.html"
   },
   {
-    "revision": "6cdc4a5cf6c6723fa9d0",
-    "url": "/collage-duniya/static/css/main.0d5298d1.chunk.css"
+    "revision": "0c690e5b40fe4e748daa",
+    "url": "/collage-duniya/static/css/main.5cc9916a.chunk.css"
   },
   {
     "revision": "709fa8cca7e48af02664",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/collage-duniya/static/js/2.510a6528.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6cdc4a5cf6c6723fa9d0",
+    "revision": "0c690e5b40fe4e748daa",
     "url": "/collage-duniya/static/js/main.4f241094.chunk.js"
   },
   {

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/collage-duniya/precache-manifest.230cee22230f3e33cf78eb2838dbf76c.js"
+  "/collage-duniya/precache-manifest.9f11b2d98ce0eb339ab028bc913997ae.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/collage-duniya/static/css/main.0d5298d1.chunk.css",
+    "main.css": "/collage-duniya/static/css/main.5cc9916a.chunk.css",
     "main.js": "/collage-duniya/static/js/main.4f241094.chunk.js",
     "main.js.map": "/collage-duniya/static/js/main.4f241094.chunk.js.map",
     "runtime-main.js": "/collage-duniya/static/js/runtime-main.0035c6c7.js",
@@ -8,16 +8,16 @@
     "static/js/2.510a6528.chunk.js": "/collage-duniya/static/js/2.510a6528.chunk.js",
     "static/js/2.510a6528.chunk.js.map": "/collage-duniya/static/js/2.510a6528.chunk.js.map",
     "index.html": "/collage-duniya/index.html",
-    "precache-manifest.230cee22230f3e33cf78eb2838dbf76c.js": "/collage-duniya/precache-manifest.230cee22230f3e33cf78eb2838dbf76c.js",
+    "precache-manifest.9f11b2d98ce0eb339ab028bc913997ae.js": "/collage-duniya/precache-manifest.9f11b2d98ce0eb339ab028bc913997ae.js",
     "service-worker.js": "/collage-duniya/service-worker.js",
-    "static/css/main.0d5298d1.chunk.css.map": "/collage-duniya/static/css/main.0d5298d1.chunk.css.map",
+    "static/css/main.5cc9916a.chunk.css.map": "/collage-duniya/static/css/main.5cc9916a.chunk.css.map",
     "static/js/2.510a6528.chunk.js.LICENSE.txt": "/collage-duniya/static/js/2.510a6528.chunk.js.LICENSE.txt",
     "static/media/collagedetail.css": "/collage-duniya/static/media/college_02.619ee97e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0035c6c7.js",
     "static/js/2.510a6528.chunk.js",
-    "static/css/main.0d5298d1.chunk.css",
+    "static/css/main.5cc9916a.chunk.css",
     "static/js/main.4f241094.chunk.js"
   ]
 }
