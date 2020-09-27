@@ -4,6 +4,7 @@ import "../assets/css/collagedetail.css";
 export default class CollageDetail extends Component {
   render() {
     const { collage } = this.props;
+    // var element = collage.famous_nearest_places;
     return (
       <div className="main-container">
         <div className="top-container">
