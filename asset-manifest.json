@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.764dfc73.chunk.css",
-    "main.js": "/static/js/main.4f241094.chunk.js",
-    "main.js.map": "/static/js/main.4f241094.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.960ada93.js",
-    "runtime-main.js.map": "/static/js/runtime-main.960ada93.js.map",
-    "static/js/2.510a6528.chunk.js": "/static/js/2.510a6528.chunk.js",
-    "static/js/2.510a6528.chunk.js.map": "/static/js/2.510a6528.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b8b3a4e68c14f14f62f2d284b3bbd1d1.js": "/precache-manifest.b8b3a4e68c14f14f62f2d284b3bbd1d1.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.764dfc73.chunk.css.map": "/static/css/main.764dfc73.chunk.css.map",
-    "static/js/2.510a6528.chunk.js.LICENSE.txt": "/static/js/2.510a6528.chunk.js.LICENSE.txt",
-    "static/media/collagedetail.css": "/static/media/college_02.619ee97e.jpg"
+    "main.css": "/collage-duniya/static/css/main.0d5298d1.chunk.css",
+    "main.js": "/collage-duniya/static/js/main.4f241094.chunk.js",
+    "main.js.map": "/collage-duniya/static/js/main.4f241094.chunk.js.map",
+    "runtime-main.js": "/collage-duniya/static/js/runtime-main.0035c6c7.js",
+    "runtime-main.js.map": "/collage-duniya/static/js/runtime-main.0035c6c7.js.map",
+    "static/js/2.510a6528.chunk.js": "/collage-duniya/static/js/2.510a6528.chunk.js",
+    "static/js/2.510a6528.chunk.js.map": "/collage-duniya/static/js/2.510a6528.chunk.js.map",
+    "index.html": "/collage-duniya/index.html",
+    "precache-manifest.230cee22230f3e33cf78eb2838dbf76c.js": "/collage-duniya/precache-manifest.230cee22230f3e33cf78eb2838dbf76c.js",
+    "service-worker.js": "/collage-duniya/service-worker.js",
+    "static/css/main.0d5298d1.chunk.css.map": "/collage-duniya/static/css/main.0d5298d1.chunk.css.map",
+    "static/js/2.510a6528.chunk.js.LICENSE.txt": "/collage-duniya/static/js/2.510a6528.chunk.js.LICENSE.txt",
+    "static/media/collagedetail.css": "/collage-duniya/static/media/college_02.619ee97e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.960ada93.js",
+    "static/js/runtime-main.0035c6c7.js",
     "static/js/2.510a6528.chunk.js",
-    "static/css/main.764dfc73.chunk.css",
+    "static/css/main.0d5298d1.chunk.css",
     "static/js/main.4f241094.chunk.js"
   ]
 }
