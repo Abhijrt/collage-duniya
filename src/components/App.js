@@ -1,10 +1,10 @@
 import React from "react";
-import CollageDetail from "./CollageDetail";
+import Collage from "./Collage";
 
 function App() {
   return (
     <div className="App">
-      <CollageDetail />
+      <Collage />
     </div>
   );
 }

@@ -105,6 +105,30 @@
   color: white;
 }
 
+/* for arrow before promotion */
+.promoted:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-left: 40px solid transparent;
+  border-bottom: 30px solid #68a7ff;
+  position: absolute;
+  right: 140px;
+  top: -22px;
+}
+/* For arrow before promotion */
+.arrow {
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid transparent;
+  border-left: 40px solid transparent;
+  border-top: 30px solid #68a7ff;
+  position: absolute;
+  right: 140px;
+  top: -17px;
+}
+
 /* desing the bottom container */
 .bottom-container {
   position: relative;
@@ -188,7 +212,7 @@
 .fee-discount .original-fee {
   position: absolute;
   text-decoration: line-through;
-  right: 25px;
+  right: 29px;
 }
 
 /* original discount deisign */
@@ -196,6 +220,20 @@
   height: 14px;
   width: 29px;
   background-color: red;
+  color: white;
+}
+
+/* For arrow before the discount panel */
+.original-discount:before {
+  content: ".";
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6.4px solid transparent;
+  border-right: 10px solid red;
+  position: absolute;
+  right: 18.6px;
+  top: 0px;
   color: white;
 }
 

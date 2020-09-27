@@ -3,63 +3,68 @@ import "../assets/css/collagedetail.css";
 
 export default class CollageDetail extends Component {
   render() {
-    const arr = [1, 2, 3, 4, 5];
+    const { collage } = this.props;
     return (
       <div className="main-container">
         <div className="top-container">
-          <div className="img-blur"></div>
+          <div className="img-blur">
+            {/* <div className="promoted">PROMOTED</div> */}
+          </div>
           <div>
-            <div className="promoted">PROMOTED</div>
+            {collage.promoted ? <div className="promoted">PROMOTED</div> : null}
+            <div className="arrow"></div>
             <div className="rating">
-              <span className="out">3.9</span>
+              <span className="out">{collage.rating}</span>
               <span className="out-off">/5</span>
               <br />
-              <span className="remark">Very Good</span>
+              <span className="remark">{collage.rating_remarks}</span>
             </div>
-            <span className="collage-tag">Best Collage 2018</span>
-            <span className="path-tag">2 km away</span>
-            <span className="ranking">#7 in 260 colleges in north campus</span>
+            <span className="collage-tag">{collage.tags[0]}</span>
+            <span className="path-tag">{collage.tags[1]}</span>
+            <span className="ranking">#{collage.ranking}</span>
           </div>
         </div>
         <div className="bottom-container">
-          <h4 className="collage-name">Hansraj College Delhi University - 1</h4>
+          <h4 className="collage-name">{collage.college_name}</h4>
           {/* {arr.map((item) => {
             return <i className="fa fa-star icon-star"></i>;
           })} */}
           <i className="fa fa-star icon-star"></i>
           <div className="collage-address">
-            <span className="street">Near Vishwavidyalya Metro Station</span>
-            <span className="path"> | 2 Kms away from bus stand</span>
+            <span className="street">{collage.nearest_place[0]}</span>
+            <span className="path"> | {collage.nearest_place[1]}</span>
           </div>
           <div className="path-match">
             <span className="match">93%Match : </span>
             <span className="near-path">
-              <strong style={{ color: "black" }}>2.5kms </strong>from GTB Nagar,
-              <strong style={{ color: "black" }}>7 Kms</strong>
-              from Rajiv Chowk
+              {/* <strong style={{ color: "black" }}>2.5kms </strong> */}
+              {collage.famous_nearest_places}
+              {/* <strong style={{ color: "black" }}>7 Kms</strong> */}
+              {/* {collage.famous_nearest_places[1]} */}
             </span>
           </div>
           <div className="discount">
-            <span className="upto">
-              Flat Rs2,000 off + upto Rs 500 wallet! to avail... LOGIN
-            </span>
+            <span className="upto">{collage.offertext}</span>
           </div>
           <div className="fee-discount">
             <span className="original-fee">
-              <i className="fa fa-rupee icon"></i>6000
+              <i className="fa fa-rupee icon"></i>
+              {collage.original_fees}
             </span>
             <span className="original-discount">
-              <span className="org-dsc">. 20</span>
+              <span className="org-dsc"> . {collage.discount}</span>
             </span>
           </div>
           <div className="fee-container">
             <span className="fee">
               <i className="fa fa-rupee icon-rupee"> </i>
-              2383
+              {collage.discounted_fees}
             </span>
-            <span>Per semester(3 Months)</span>
+            <span>{collage.fees_cycle}</span>
           </div>
-          <div className="benefit">Free Cancellation . Free Wi-Fi</div>
+          <div className="benefit">
+            {collage.amenties[0]} . {collage.amenties[1]}
+          </div>
         </div>
       </div>
     );
